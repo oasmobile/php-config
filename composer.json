@@ -1,0 +1,23 @@
+{
+    "name"       : "oasis/config",
+    "description": "Configuration Management",
+    "type"       : "library",
+    "require"    : {
+        "symfony/config": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.1"
+    },
+    "license"    : "MIT",
+    "authors"    : [
+        {
+            "name" : "Minhao Zhang",
+            "email": "minhao.zhang@qq.com"
+        }
+    ],
+    "autoload"   : {
+        "psr-4": {
+            "Oasis\\Mlib\\Config\\": "src/"
+        }
+    }
+}
